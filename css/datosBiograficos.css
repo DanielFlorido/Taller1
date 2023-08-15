@@ -1,0 +1,28 @@
+
+
+td{
+    text-align: center;
+}
+tr:hover{
+    background-color: darkkhaki;
+}
+.divTablaDatosbiograficos{
+    overflow-x: auto;
+    margin-top: 5%;
+}
+th {
+    background-color: rgb(16, 16, 88);
+    color: white;
+}
+tr:nth-child(even){
+    background-color: blue;
+    text-decoration-color: black;
+}
+tr:nth-child(odd){
+    background-color: rgb(60, 116, 60);
+    text-decoration-color: black;
+}
+table, th, td{
+    border: 2px black solid;
+    border-collapse: collapse;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/chat.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="../javascript/chat.js"></script>
+    <title>Chat</title>
+</head>
+
+<body>
+    <div class="headerDiv">
+        <header class="elHeader">
+            <div class="contenedorHeaderExterior">
+                <div class="logo">
+                    <a href="/Taller1/html/index.html" 1>
+                        <img class="logoimg" alt="IconoPrincipalEthemetal" src="../img/logo.png    ">
+                    </a>
+                </div>
+                <div class="titulo">
+                    <h1>
+                        Bienvenido a mi pagina web!
+                    </h1>
+                    <a href="index.html">Principal</a>
+                    <a href="experiencia.html">Experiencia</a>
+                    <a href="datosBiograficos.html">Datos Biograficos</a>
+                    <a href="materialInteres.html">Intereses</a>
+                    <a href="chat.html">Chat</a>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="root">
+        <div class="areaMensajes">
+            <ul id="listaMensajes">
+                
+            </ul>
+        </div>
+        <div class="enviaMensajeDiv">
+            <input type="text" id="txtMensaje" onkeyup="return enviarEnter(event)">
+            <input class="enviarbtn" type="button" value="Enviar" onclick="enviar()">
+        </div>
+    </div>
+</body>
+
+</html>

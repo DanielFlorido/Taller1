@@ -1,0 +1,72 @@
+.contenedorHeaderExterior{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: blanchedalmond ;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 25%;
+    height: 100px;
+}
+a img{
+    text-decoration: none;   
+}
+h1{
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: lightblue;
+    font-family: 'Cherry Swash', cursive;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    background-color: aquamarine;
+    color: black;
+    border-style:dotted ;
+    border-color: blueviolet;
+}
+.titulo{
+    width: 75%;
+}
+.logoimg{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border: 100px;
+}
+.headerDiv{
+    top: 0;
+    position: sticky;
+    width: 100%;
+    height: 20%;
+}   
+h2{
+    font-family: 'Cherry Bomb One', cursive;
+}
+p{
+    font-family: 'Borel', cursive;
+}
+section section:hover{
+    background-color: cadetblue;
+    border-style: solid;
+    border-color: blueviolet;
+}
+.root{
+    height: fit-content;
+    width: 50%;
+    margin: 0 auto;
+}
+section{
+    scroll-margin-top: 100px;
+}

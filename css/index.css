@@ -1,0 +1,9 @@
+.bienvenidaDiv img{
+    width: 100%;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 1px;
+    box-shadow: 10px 10px cornflowerblue;
+    float: right;
+}

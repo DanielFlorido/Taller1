@@ -1,0 +1,40 @@
+.root{
+    background-color: whitesmoke;
+    height: 500px;
+}
+.areaMensajes{
+    height: 95%;
+    background-color: aquamarine;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: right;
+    align-items: flex-end;
+}
+.enviaMensajeDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+#txtMensaje{
+    width: 75%;
+}
+.enviarbtn{
+    width: 25%;
+}
+li{
+    list-style-type: none;
+    background-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    width:fit-content;
+    padding: 3px 3px 3px 5px;
+    margin-top: 2px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 1px;
+}
