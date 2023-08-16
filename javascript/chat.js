@@ -1,7 +1,8 @@
 function enviar() {
     let areatxt = document.getElementById("txtMensaje");
     let mensaje = areatxt.value;
-    if(mensaje!="" || mensaje ){
+    console.log(mensaje.length);
+    if(mensaje!="" && mensaje.length <300 ){
         areatxt.value="";
         agregarMensaje(mensaje);
     }

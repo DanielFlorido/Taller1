@@ -24,6 +24,7 @@
     width: 25%;
 }
 li{
+    display: inherit;
     list-style-type: none;
     background-color: white;
     border-style: solid;
